@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Autos Tepito. Llévele llévele</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <section>
+                <table border="1px" id="tabla1">
+                    <caption><h2>Autos - dueños</h2></caption>
+                    <thead>
+                        <tr>
+                            <th>Cliente</th>
+                            <th>Modelo</th>
+                            <th>Placas</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                            <tr>
+                                <td rowspan="2">Karen Escamilla</td>
+                                <td>Chevi</td>
+                                <td>WIOC8989</td>
+                                <td>
+                                    <form action="detalles.php" method="get">
+                                        <input type="hidden" id="idAuto" name="idAuto" value="1" /><input type="submit" value="Detalles"/>
+                                    </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Vocho  GIOC8989</td>
+                                <td>
+                                    <form action="detalles.php" method="get">
+                                        <input type="hidden" id="idAuto" name="idAuto" value="2" /><input type="submit" value="Detalles"/>
+                                    </form>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Franco Escamilla</td>
+                                <td>Mercedez</td>
+                                <td>RIOC8989</td>
+                                <td>
+                                    <form action="detalles.php" method="get">
+                                        <input type="hidden" id="idAuto" name="idAuto" value="3" /><input type="submit" value="Detalles"/>
+                                    </form>
+                                </td>
+                            </tr>
+                    </tbody>
+                </table>
+        </section>
+    </body>
+</html>
